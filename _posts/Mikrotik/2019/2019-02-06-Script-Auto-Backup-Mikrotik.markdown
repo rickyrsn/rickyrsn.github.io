@@ -16,3 +16,5 @@ Script:
 /system backup save name="RB850Gx2 - $tgl $bln $thn"; <-- .backup  
 /export file="RB850Gx2 - $tgl $bln $thn"; <-- .rsc
 
+- Navigate to System - Scheduler
+- Create New Scheduler
