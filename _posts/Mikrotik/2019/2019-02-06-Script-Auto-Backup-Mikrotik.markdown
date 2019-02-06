@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Script Auto Backup Mikrotik
-date: 2019-02-06 11:300:00 +0700
+date: 2019-02-06 11:30:00 +0700
 ---
 
 #### via Winbox
