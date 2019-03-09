@@ -19,9 +19,10 @@ $ sudo apt-get update
 $ sudo apt-get install php7.1 php7.1-fpm
 ```
 
-# Instal Phalcon and Ioncube Loader Module
+# Install Phalcon and Ioncube Loader Module
 
 ```s
+$ cd /tmp
 $ curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | sudo bash
 $ sudo apt-get update
 $ sudo apt-get install php7.1-phalcon
@@ -61,7 +62,7 @@ $ sudo nano /etc/apache2/sites-available/000-default.conf
 
 Update the configuration (000-default.conf) as followings.
 
-```s
+```conf
 <VirtualHost *:80>
     ServerName example.com
     ServerAlias www.example.com
