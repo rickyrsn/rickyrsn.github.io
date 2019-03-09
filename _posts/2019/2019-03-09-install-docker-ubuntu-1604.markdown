@@ -40,10 +40,10 @@ Executing Docker without sudo:
 >`sudo usermod -aG docker ${USER}`
 
 Now check your membership, and confirm that your user is now added to Docker group
-```s
-su - ${USER}
-id -nG`
-```
+>`su - ${USER}`
+>
+>`id -nG`
+
 
 Optionally, if you need to add user to docker group that you are not logged in as, you can use:
 >`sudo usermod -aG docker type_your_username`
