@@ -37,13 +37,11 @@ Enable Docker to start on boot:
 >`sudo systemctl enable docker`
 
 Executing Docker without sudo:
-```conf
-sudo usermod -aG docker ${USER}
-```
+>`sudo usermod -aG docker ${USER}`
 
 Now check your membership, and confirm that your user is now added to Docker group
 ```s
-su - ${USER}`
+su - ${USER}
 id -nG`
 ```
 
