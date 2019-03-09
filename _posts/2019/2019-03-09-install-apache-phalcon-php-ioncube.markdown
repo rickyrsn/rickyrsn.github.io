@@ -5,14 +5,16 @@ date:   2019-02-02 13:29:36 +0700
 ---
 
 # Installing Apache2
-> sudo apt-get update
-> sudo apt-get install apache2
-> 
+```s
+sudo apt-get update
+sudo apt-get install apache2
+```
 
 # Installing PHP-FPM
-> sudo add-apt-repository ppa:ondrej/php
-> sudo apt-get update
-> sudo apt-get install php7.1 php7.1-fpm
+```s
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php7.1 php7.1-fpm
 
 # Instal Phalcon and Ioncube Loader Module
 > curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | sudo bash
@@ -38,13 +40,16 @@ Add the following line to 00-ioncube.ini
 > zend_extension = /(your extension_dir)/ioncube_loader_lin_7.1.so
 > 
 # Restart Service
-> sudo service apache2 restart
-> sudo service php7.1-fpm restart
+```shell
+sudo service apache2 restart
+sudo service php7.1-fpm restart
+```
 
 # Apache Configuration
-> sudo a2enmod actions fastcgi alias proxy_fcgi
-> sudo nano /etc/apache2/sites-available/000-default.conf
-
+```shell
+sudo a2enmod actions fastcgi alias proxy_fcgi
+udo nano /etc/apache2/sites-available/000-default.conf
+```
 
 Update the configuration as followings.
 
