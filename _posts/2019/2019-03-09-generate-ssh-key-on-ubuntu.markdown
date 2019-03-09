@@ -3,10 +3,10 @@ layout: post
 title:  "Generate SSH Key on Ubuntu"
 date:   2019-03-09 19:00:00 +0700
 ---
-#### Create SSH Key Pair
+## Create SSH Key Pair
 >$ ssh-keygen
->
-Optional
+
+##### Optional
 add flag -b 4012 to create 4012-bit key
 >$ ssh-keygen -b 4012
 
